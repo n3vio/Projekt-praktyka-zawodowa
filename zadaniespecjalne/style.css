@@ -1,0 +1,483 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    height: 950px;
+    background-color: rgba(51, 33, 14, 0.4);
+    padding-left: 0px;
+    font-size: 40px
+}
+
+header h2 {
+    margin-top: 80px;
+    font-family: unbounded;
+    color: #F9F2E8;
+    font-weight: 300;
+    font-size: 80px;
+    line-height: 96px;
+    letter-spacing: -2px;
+    margin-left: 30px;
+    text-transform: uppercase
+}
+
+header h3 {
+    font-family: unbounded;
+    color: #F9F2E8;
+    font-weight: 300;
+    font-size: 80px;
+    line-height: 96px;
+    letter-spacing: -2px;
+    margin-left: 30px;
+    text-transform: uppercase
+}
+
+header h4 img {
+    float: right;
+    margin-right: 40px;
+}
+
+header p {
+    font-weight: 500;
+    color: #F9F2E8;
+    font-size: 20px;
+    line-height: 28px;
+    font-family: unbounded;
+    margin-left: 30px;
+    margin-top: 20px
+}
+
+header button {
+    background-color: #C9EC66;
+    width: 201px;
+    height: 36px;
+    padding: 16px 16px 10px;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 1px;
+    text-align: left;
+    margin-bottom: 40px;
+    margin-top: 70px;
+    border: none;
+    text-transform: uppercase;
+    margin-left: 30px
+}
+
+button img {
+    width: 16px;
+    height: 16px;
+    float: right;
+    margin-bottom: 40px
+}
+
+.arrows {
+    margin-left: 30px;
+    margin-top: 100px
+}
+
+nav .logo {
+    margin: 40px
+}
+
+nav .menu {
+    float: right;
+    margin: 40px;
+}
+
+.first ul li {
+    font-size: 25px;
+    list-style: none;
+    color: white;
+    display: inline-flex;
+    line-height: 10px;
+    font-family: arial;
+    margin-top: 80px
+}
+
+.first ul li a {
+    text-decoration: none;
+    color: rgba(249, 242, 232, 0.4);
+    line-height: 10px;
+}
+
+section .kwadrat {
+    background-color: darkgrey;
+}
+
+.kwadrat .napisy h1 {
+    font-family: unbounded;
+    font-size: 48px;
+    line-height: 57px;
+    text-align: center;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-top: 100px
+}
+
+.kwadrat .napisy h2 {
+    font-family: unbounded;
+    font-size: 48px;
+    line-height: 57px;
+    text-align: center;
+    font-weight: 300;
+    color: darkgray;
+    text-transform: uppercase;
+}
+
+.kwadrat .napisy h3 {
+    font-family: arial;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.napisy img {
+    width: 100%
+}
+
+.zdj {
+    width: 95%;
+    margin-left: px
+}
+
+.zdj ul li sup {
+    font-size: 10px
+}
+
+.zdj ul li {
+    text-decoration: none;
+    display: inline-flex;
+    font-weight: 700;
+    line-height: 60px;
+    font-family: JetBrains mono;
+    font-size: 40px
+}
+
+.zdj ul li p {
+    font-size: 16px
+}
+
+.kwadrat button {
+    background-color: transparent;
+    border: transparent
+}
+
+.text1 {
+    background-color: rgba(31, 31, 30, 1);
+}
+
+.text1 img {
+    width: 80%;
+    margin-top: 212px;
+    margin-left: 70px;
+}
+
+.text1 .first {
+    width: 91px;
+    margin-top: -100px;
+    margin-left: 10px
+}
+
+.xd {
+    background-color: rgba(31, 31, 30, 1);
+    width: 100%;
+    height: 1256px
+}
+
+.xd .napisek h1 {
+    font-family: Unbounded;
+    text-transform: uppercase;
+    color: rgba(254, 254, 254, 1);
+    font-size: 34px;
+    font-weight: 300;
+    margin-top: 212px;
+    margin-left: 155px;
+}
+
+.xd .napisek h2 {
+    font-family: Unbounded;
+    text-transform: uppercase;
+    color: rgba(201, 236, 102, 1);
+    font-size: 34px;
+    font-weight: 300;
+    margin-left: 155px;
+}
+
+.xd .zdjecia img {
+    width: 350px;
+    height: auto;
+    margin-left: 100px;
+    margin-top: 72px
+}
+
+.xd .zdjecia h1 {
+    color: white;
+    font-family: arial;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 38px;
+    margin-left: 150px
+}
+
+.xd .zdjecia button {
+    margin-left: 150px;
+    background-color: transparent;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    width: 201px;
+    height: 48px;
+    border: none;
+    margin-left: 114px
+}
+
+.xd .kwadrat img {
+    width: 350px;
+    height: auto;
+    float: right;
+    margin-top: -470px;
+    margin-right: 100px;
+
+}
+
+.xd .kwadrat h1 {
+    float: right;
+    margin-right: 170px;
+    margin-top: -110px;
+    color: white;
+    font-family: arial;
+    font-size: 24px;
+    line-height: 38px;
+    font-weight: 700;
+}
+
+.xd .kwadrat button {
+    float: right;
+    background-color: transparent;
+    color: white;
+    text-transform: uppercase;
+    margin-top: -40px;
+    margin-right: 285px
+}
+
+.bg {
+    background-color: #8b8181;
+    height: 620px;
+}
+
+.bg img {
+    float: right;
+    margin-top: 520px;
+    margin-right: 48px;
+}
+
+.bg .napiski h1 {
+    color: white;
+    font-family: Unbounded;
+    font-size: 48px;
+    text-transform: uppercase;
+    font-weight: 300;
+    line-height: 57px;
+    margin-left: 155px;
+    padding-top: 366px
+}
+
+.zjd img {
+    float: left;
+    margin-top: -537px
+}
+
+.ply img {
+    float: right;
+    margin-top: 0
+}
+
+.bgk {
+    background-color: darkgray;
+    height: 620px
+}
+
+.bgk .nap h1 {
+    font-family: Unbounded;
+    font-weight: 300;
+    font-size: 34px;
+    line-height: 57px;
+    text-transform: uppercase;
+    color: white;
+    margin-left: 155px;
+    padding-top: 424px;
+}
+
+.bgk .gall {
+    margin-top: -465px
+}
+
+.bgk .nap h2 {
+    float: right;
+    margin-top: -400px;
+
+}
+
+.bgk .st {
+    margin-top: 186px
+}
+
+.bgk .str {
+    float: right;
+    margin-top: -170px
+}
+
+.bgkc {
+    height: auto;
+}
+
+.bgkc .firt h1 {
+    width: 438px;
+    height: 190px;
+    font-family: arial;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 48px;
+    margin-left: 50px;
+    margin-bottom: 80px;
+    margin-right: 139px;
+    margin-top: 358px;
+}
+
+.bkc .first h2 img {
+    float: right;
+    margin-top: -630px;
+    margin-right: 30px;
+}
+
+.bgkc .frst h3 img {
+    width: 300px;
+}
+
+.bgkc .frst h3 {
+    font-family: arial;
+    font-weight: 500;
+    font-size: 28px;
+    margin-left: 50px
+}
+
+bgkc .first h3 button {
+    background-color: transparent
+}
+
+.bgkc first h4 img {
+    float: right;
+    width: 300px;
+    margin-top: -250px;
+    margin-right: 50px
+}
+
+.bgc .first h5 img {
+    width: 300px;
+    float: left
+}
+
+@media (min-width: 1024px) {
+    .footer {
+        height: 780px;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .footer .newsletter {
+        width: 775px;
+        z-index: 1;
+    }
+
+    .footer .newsletter h1 {
+        font-size: 48px;
+        margin: 0 48px;
+        line-height: 57.6px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .footer .images img {
+        margin: 0;
+        position: absolute;
+        width: 220px;
+        top: 170px;
+        height: 400px;
+        z-index: 0;
+    }
+
+    .footer .images img:nth-of-type(2) {
+        width: 500px;
+        right: -375px;
+    }
+
+    .footer .section {
+        text-align: right;
+        width: 950px;
+        margin: 40px auto 0 auto;
+    }
+
+    .footer .section p {
+        float: left;
+        margin: 5px 0 5px 100px;
+        width: 570px;
+        height: 22px;
+        line-height: 0;
+    }
+
+    .footer .section img:nth-of-type(1) {
+        float: left;
+    }
+
+    .footer .section span {
+        margin-right: 16px;
+    }
+
+    .footer .section img:nth-of-type(2),
+    .footer .section img:nth-of-type(3) {
+        margin-right: 16px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .footer .images img:nth-of-type(2) {
+        width: 500px;
+        right: -290px;
+    }
+
+    .footer .images img {
+        width: 310px;
+        top: 170px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .footer .images img {
+        width: 400px;
+        top: 170px;
+    }
+
+    .footer .images img:nth-of-type(2) {
+        width: 500px;
+        right: -250px;
+    }
+
+    .footer .section {
+        width: 1360px;
+        margin: 40px auto 0 auto;
+    }
+
+    .footer .section p {
+        margin: 0 0 0 315px;
+    }
+}
